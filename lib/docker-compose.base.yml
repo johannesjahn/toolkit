@@ -3,7 +3,7 @@ version: "2.2"
 services:
   sharelatex:
     restart: always
-    image: tuetenk0pp/sharelatex-full:5.0.2-RC4
+    image: johannesjahn/sharelatex-full:5.0.3
     container_name: sharelatex
     volumes:
       - "${OVERLEAF_DATA_PATH}:/var/lib/overleaf"
